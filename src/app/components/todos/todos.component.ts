@@ -12,8 +12,11 @@ export class TodosComponent implements OnInit {
 
   constructor(private todoService:TodoService) { }
 
-  ngOnInit(): void {
-    this.todos = this.todoService.getTodos();
+  ngOnInit(): void {                           //an Observable  is an asynchronous data stream
+                                               //.subscribe() is used to subscribe to the observable | .subscribe() is similar to .then()
+     this.todoService.getTodos().subscribe(todos =>{
+       this.todos = todos;
+     });
   }
 
 }
