@@ -1,0 +1,8 @@
+<form  class="form">
+    <!-- bind title input to the title property at the add-todo component file -->
+    <!-- a directive called [(ngModel)] is used to bind the data, also known as 2way data binding -->
+    <!-- the 'name' addribute value should be the same as the value of [(ngModel)] -->
+    <!-- in order to use ngModule forms Module must be imported in  the app.module ts file -->
+    <input type="text" name="title" [(ngModel)]="title" placeholder="Add Todo...">
+    <input type="submit" value="Submit" class="btn">
+</form>
