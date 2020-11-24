@@ -6,7 +6,7 @@ Angular Todo List project from Angular Crash Course
 
 <img src="images/img1.png" height=500px/>
 <br>
-<img src="images/img2.png" height=500px/>
+<img src="images/img2.png" />
 
 
 ## Commands
