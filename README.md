@@ -3,8 +3,7 @@ Angular Todo List project from Angular Crash Course
 
 
 
-
-#Commands
+# Commands
 
 - npm install
 - ng serve --open
